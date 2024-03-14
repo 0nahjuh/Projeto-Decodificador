@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Criptografia e Descriptografia</title>
+</head>
+<body>
+
+<h2>Criptografia e Descriptografia</h2>
+
+<label for="texto">Digite o texto:<br>
+<span id="resultado" style="font-weight:bold;"></span></label><br>
+<textarea id="texto" rows="4" cols="50" oninput="atualizarResultado()"></textarea><br><br>
+
+<button onclick="codificar()">Codificar</button>
+<button onclick="decodificar()">Decodificar</button><br><br>
+
+<button onclick="copiarTexto()">Copiar para Área de Transferência</button><br><br>
+    <script src="script.js" defer></script>
+</body>
+</html>
