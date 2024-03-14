@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lobster&display=swap');
+
+
+body {
+    background-color: #F0E9E9;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #824747;
+    width: 757px;
+    font-family: "Lobster", sans-serif;
+    border-style:dashed;
+    border-color: #AA7070;
+    border-width: 10px;
+    border-radius: 40px;
+    background-color: #E2CFCF;
+    margin-top: 135px;
+}    
+
+.caixa {
+    width: 610px;
+    background-color: #E2CFCF;
+    border-style: dashed;
+    border-color: #AA7070;
+    border-width: 1px;
+}
+
+button {
+    color: #F0E9E9;
+    background-color: #AA7070;
+    border: 10px solid #AA7070;
+    font-size: 16px;
+    border-radius: 30px;
+    font-family: "Inter", sans-serif;   
+}
+
+small {
+    margin-right: 350px;
+    color: #8B5D5D;
+    font-family: "Inter", sans-serif;
+
+}
+.codi {
+    margin-top: 100px ;
+    margin-right: 510px;
+    margin-bottom: 5px;
+}
+
+.botoes_inferiores {
+    margin-left: 380px;
+}
+
+#mensagem {
+    position: absolute;
+    margin-left: 810px;
+    color: #8B5D5D;
+    font-family: "Inter", sans-serif;
+}

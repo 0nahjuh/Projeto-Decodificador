@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Criptografia e Descriptografia</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="script.js" defer></script>
+        <link rel="stylesheet" href="styles.css">
+    <title>0nahjuh_</title>
+    </head>
 <body>
-
-<h2>Criptografia e Descriptografia</h2>
-
-<label for="texto">Digite o texto:<br>
-<span id="resultado" style="font-weight:bold;"></span></label><br>
-<textarea id="texto" rows="4" cols="50" oninput="atualizarResultado()"></textarea><br><br>
-
-<button onclick="codificar()">Codificar</button>
-<button onclick="decodificar()">Decodificar</button><br><br>
-
-<button onclick="copiarTexto()">Copiar para Área de Transferência</button><br><br>
-    <script src="script.js" defer></script>
-</body>
-</html>
+        <center>
+            <h1>Decodificador de Texto</h1>
+            <div id="mensagem"></div>
+            <div class="codi">
+                <button onclick="codificar()">Codificar</button>
+            </div>
+                <textarea class="caixa" id="texto" rows="4" cols="50" oninput="atualizarResultado()"></textarea><br>
+                <small>❕Apenas letras minúsculas e sem acento.</small>
+                <div class="botoes_inferiores">   
+                    <button class="botoes" onclick="decodificar()">Decodificar</button>
+                    <button class="botoes" onclick="copiarTexto()">Copiar Texto</button>
+                </div>
+        </center>
+</body>   
